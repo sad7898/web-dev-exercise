@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panya's Farm</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <style>
+  	.pink {
+  		background: : pink;
+  	}
+  </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+<div class="container-fluid">
+	
+  <a class="navbar-brand mr-4" href="#">PANYA'S FARM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+</nav>
+
+	<div class="container-fluid px-0">
+		<div class="row justify-content-center align-items-center" id="first-row">
+			<div class="col-lg-6 d-none d-lg-flex  justify-content-center px-0">
+			<span id="big-text">
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+				<h1>FRESH<span>-</span>AND<span>-</span>CLEAN</h1>
+			</span>
+			</div>
+			<div class="col-lg-6 px-0">
+				<img src="egg1.jpg" class="img-fluid">
+			</div>
+		</div>
+
+	
+		<div class="row justify-content-center">
+			<div class="col-lg-6 px-0 order-1 order-sm-1 order-md-1 order-lg-0 order-xl-0" id="first-row">
+				<img src="egg2.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-6 d-flex justify-content-center pr-0 pl-2 order-0 order-sm-0 order-md-0 order-lg-1 order-xl-1">
+			<div class=" passage text-center pt-3">
+				<h1>On the origin of eggs</h1>
+				<div class="d-flex-row justify-content-center mt-3"><img src="egg.png" class="icon"></div>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula accumsan libero. Pellentesque ornare, nunc sit amet tincidunt suscipit, ipsum erat hendrerit neque, gravida maximus est libero non velit. Ut consectetur bibendum eros, quis tincidunt tortor euismod sit amet. Aliquam sem odio, eleifend dapibus sem sagittis, consectetur .</p>
+			</div>
+			</div>
+			
+		</div>
+		<div class="row justify-content-center" id="last-row">
+			<div class="col-lg-6 d-flex justify-content-center pr-0 pl-2 ">
+				<div class=" passage text-center pt-3">
+					<h1>Procedure</h1>
+					<div class="d-flex-row justify-content-center mt-2"><img src="egg.png" class="icon"></div>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula accumsan libero. Pellentesque ornare, nunc sit amet tincidunt suscipit, ipsum erat hendrerit neque, gravida maximus est libero non velit. Ut consectetur bibendum eros, quis tincidunt tortor euismod sit amet. Aliquam sem odio, eleifend dapibus sem sagittis, consectetur .</p>
+				</div>
+			</div>
+			<div class="col-lg-6 px-0">
+				<img src="egg3.jpg" class="img-fluid">
+			</div>
+			
+		</div>
+	</div>
+	<div class="footer">
+		<div class="d-flex flex-row align-items-center justify-content-center sub-foot">
+			<p>
+			We do delivery! Contact us: 0982522044
+		</p>
+
+		</div>
+	</div>
+	
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    	$(function(){
+    		$(document).scroll(function(){
+    			var $nav = $("#mainNav")
+    			$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    		})
+    	})
+    </script>
+</body>
+</html>
