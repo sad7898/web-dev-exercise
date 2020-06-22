@@ -1,0 +1,24 @@
+.jumbo {
+	margin-bottom: 0;
+	transition: 0.5s;
+}
+.medium {
+	font-weight: 200;
+	transition: 0.5s;
+}
+.big {
+	font-weight: 400;
+	transition: 0.5s;
+}
+@media (min-width: 992px){
+.medium {
+	font-size: 3vw;
+	transition: 0.5s;
+	font-weight: 200;
+}
+.big {
+	font-size: 4vw;
+	transition: 0.5s;
+	font-weight: 400;
+}
+}
