@@ -1,4 +1,8 @@
-.jumbo {
+body ,html{
+	width:100%;
+	height:100%;
+}
+#jumbo {
 	margin-bottom: 0;
 	transition: 0.5s;
 }
@@ -21,4 +25,28 @@
 	transition: 0.5s;
 	font-weight: 400;
 }
+}
+.pallete {
+	background: red;
+	width: 7vw;
+	height: 7vw;
+	border-radius: 2px;
+}
+.color {
+	margin-top: 20px;
+}
+.buttn{
+	background: pink;
+}
+#button-panel{
+	background: white;
+}
+.buttn button{
+	border: 0;
+	background: white;
+	transition: 0.5s;
+}
+.buttn button:hover{
+	background: inherit;
+	color: white;
 }
