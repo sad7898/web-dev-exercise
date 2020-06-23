@@ -13,29 +13,32 @@
 
 </head>
 <body>
-<div class="jumbotron jumbotron-fluid buttn" id="jumbo">
+<div class="jumbotron jumbotron-fluid" id="jumbo">
   <div class="container d-flex flex-column justify-content-end align-items-center">
     <h1 class="medium">The Great</h1>
-    <h1 class="big">RGB (<span id="r">255</span>,<span id="g">255</span>,<span id="b">255</span>)
+    <h1 class="big"><span id="hint"></span></h1>
    	<h1 class="medium">Guessing Game</h1>
   </div>
 </div>
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-        <div class="col d-flex flex-row justify-content-between buttn">
-            <span><button>NEW COLORS</button></span>
+        <div class="col d-flex flex-row justify-content-around buttn">
+            <span><button id="newGame">NEW COLORS</button></span>
+            <span><button class="correct" id="correct">Correct!</button></span>
             <span>
-                <button>EASY</button>
-                <button>HARD</button>
+                <button id="easy">EASY</button>
+                <button id="hard">HARD</button>
             </span>
         </div>
     </div>
+</div>
+<div class="container">
     <div class="row color">
-        <div class="col d-flex flex-row justify-content-center">
+        <div class="col  d-flex flex-row justify-content-center">
             <div class="pallete">
             </div>
         </div>
-        <div class="col d-flex flex-row justify-content-center">
+        <div class="col  d-flex flex-row justify-content-center">
             <div class="pallete">
             </div>
         </div>
