@@ -12,7 +12,6 @@ var life =1;
 var jumbo = document.getElementById("jumbo");
 function changeJumboColor(ans){
 	jumbo.style.background = ans.style.background;
-	var rgb = 
 }
 function correctAns(){
 		correct.style.display = "block";
